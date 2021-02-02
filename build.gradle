@@ -1,4 +1,4 @@
-    plugins {
+plugins {
     id 'java'
     id 'war'
 }
@@ -16,6 +16,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
     // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
     providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+
 }
 
 test {

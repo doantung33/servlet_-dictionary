@@ -8,10 +8,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>Lê Doãn Tùng</title>
   </head>
   <body>
-  <form method="post" action="/translationServlet" >
+  <form method="post" action="dictionary.jsp" >
+
   <h2>Vietnamese Dictionary</h2>
   <form>
     <input type="text" name="txtSearch" placeholder="Enter your word: "/>
